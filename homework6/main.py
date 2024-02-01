@@ -23,6 +23,6 @@ if __name__ == "__main__":
     result = binary_search(arr, number)
 
     if result == -1:
-        print("Искомого элемента нет в массиве")
+        print("Искомый элемент не найден")
     else:
         print(f"Искомый элемент: {number} найден по индексу: {result}")
